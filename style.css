@@ -1,5 +1,12 @@
 
 #img {
-    background-image: url(./img/58cdf35fc9615fdfa937870120f00c2a.png);
+    background-image: url(./img/zu.jpeg);
     margin-bottom: 4rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+
+    height: 30rem;
+    width: 40%; 
+    background-color: aqua;
 }
