@@ -1,0 +1,9 @@
+.navbar>.container-fluid{
+    justify-content: space-around;
+}
+
+
+.navbar-collapse {
+    flex-grow: 0;
+   }
+   
