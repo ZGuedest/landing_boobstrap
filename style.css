@@ -1,12 +1,29 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 4em);
+  margin: 2em;
+}
+nav button {
+  width: 30%;
+  height: 2rem;
+  font-weight: bold;
+}
+.test-ok {
+  color: green;
+}
+.test-ok::before {
+  content: '✓ ';
+}
 
-#img {
-    /* background-image: url(./img/zu.jpeg); */
-    margin-bottom: 4rem;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: 50%;
+.test-fail {
+  color: red;
+}
+.test-fail::before {
+  content: '✗ ';
+}
 
-    height: 30rem;
-    width: 40%; 
-    background-color: aqua;
+.test-message {
+  margin-left: 2em;
+  color: red;
 }

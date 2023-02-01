@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div id="formulario" class=" home_item flex_row">
+        <!-- <h3 class="linea-separadora"> ─────── &#9733 ───────</h3>  -->
+        <form  action="" method="get" class="flex_colum">
+            <div class="formulario flex_colum">
+                    <div class="personal_data_item">
+                        <label class = "label" for="Name">Nombre:</label>
+                        <input type="text" name="textName" id="textName" >
+                    </div>
+
+                    <div class="personal_data_item">
+                        <label>Peso:</label>
+                        <input type="text"  id="textPeso" >
+                    </div>
+                    
+                    <div class="personal_data_item">
+                        <label >Altura:</label>
+                        <input type="text" id="textAltura" >
+                    </div>
+
+                    <div id="Info"></div>
+
+                    <div class="flex_row">
+                        <button id="IMC">Valor IMC</button>
+                        <button>Pasar dato</button>
+                    </div>
+
+                <div id="w" style="width: 300px;"></div>
+            </div>
+            
+        </form>
+    </div>
+    <script src="calcularIMC.js"></script>
+
+</body>
+</html>
